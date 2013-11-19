@@ -1,4 +1,4 @@
-MOKA-Booking
-============
+# MOKA Booking #
 
-Booking Management System
+**MOKA Booking** is an open-source booking management system for all business entities require booking.
+
