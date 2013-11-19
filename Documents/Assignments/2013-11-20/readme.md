@@ -34,9 +34,9 @@ This assignment is to setup your initial development environment. Please review 
    * `MokaBooking.Web.UI.Tests`
       * NUnit Test Framework
 * Add NuGet packages and assign them to appropriate projects
-	 * For `MokaBooking.Web.UI`
-	    * `jQuery 2.0.3`
-	    * `Bootstrap for MVC 5 2.1.3`
+   * For `MokaBooking.Web.UI`
+      * `jQuery 2.0.3`
+      * `Bootstrap for MVC 5 2.1.3`
       * `AngularJS 1.2.0`
       * `Json.NET 5.0.8`
    * For `MokaBooking.Web.UI.Tests`
