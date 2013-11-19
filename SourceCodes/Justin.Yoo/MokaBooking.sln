@@ -1,7 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaBooking.Web.UI", "MokaBooking.Web.UI\MokaBooking.Web.UI.csproj", "{7124AB09-BB8E-442A-BD91-27806E7C9399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaBooking.Web.UI.Tests", "MokaBooking.Web.UI.Tests\MokaBooking.Web.UI.Tests.csproj", "{5E693627-6E55-4AD5-8931-D5FAF5E65CE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{97A3184F-1DD1-45F7-813D-D14D46DF4C10}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7124AB09-BB8E-442A-BD91-27806E7C9399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7124AB09-BB8E-442A-BD91-27806E7C9399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7124AB09-BB8E-442A-BD91-27806E7C9399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7124AB09-BB8E-442A-BD91-27806E7C9399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E693627-6E55-4AD5-8931-D5FAF5E65CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E693627-6E55-4AD5-8931-D5FAF5E65CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E693627-6E55-4AD5-8931-D5FAF5E65CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E693627-6E55-4AD5-8931-D5FAF5E65CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
