@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using MokaBooking.Web.UI.App_Start;
 
 namespace MokaBooking.Web.UI
 {
