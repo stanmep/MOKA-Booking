@@ -1,4 +1,9 @@
 ﻿body {
-    margin-top: 10px;
+    margin-top: 120px;
     margin-bottom: 10px;
+}
+
+.booking-date {
+    display: inline;
+    width: 23% !important;
 }
