@@ -2,20 +2,48 @@
    
 }
 
-<form role="form" class="inputform">
+<form role="form" class="inputform" method="post" action="">
   <div class="form-group">
-    <input type="text" class="form-control" id="GivenName" placeholder="Given name" />
-  </div>
-  <div class="form-group">
-    <input type="text" class="form-control" id="SurName" placeholder="Surname" />
-  </div>
-  <div class="form-group">
-    <input type="email" class="form-control" id="Email" placeholder="Email" />
-  </div>
-  <div class="form-group">
-    <input type="password" class="form-control" id="Password" placeholder="Password" />
-  </div>
-  <div class="form-group">
-  <button type="submit" class="btn btn-default">Submit</button>
+    <input type="text" class="form-control" name="givenname" placeholder="Given name" />
+  
+    <input type="text" class="form-control" name="surname" placeholder="Surname" />
+  
+    <input type="email" class="form-control" name="email" placeholder="Email" />
+  
+    <input type="password" class="form-control" name="password" placeholder="Password" />
+ 
+    <div class="datepicker">
+        <select id="datedropdown" class="form-control">
+           @{
+               for (int i = 1; i <= 31; i++)
+               {
+                  <option value="@i">@i</option>
+               }
+           }
+
+        </select>
+        <select id="monthdropdown" class="form-control">
+           @{
+               string [] month = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+               for (int i = 0; i < month.Length; i++)
+               { 
+                   <option value="@month[i]">@month[i]</option>
+               }
+           }
+        </select>
+         <select id="yeardropdown" class="form-control">
+           @{
+               for (int i = @DateTime.Now.Year; i >=1930 ; i--)
+               { 
+                   <option value="@i">@i</option>
+               }
+           }
+        </select>
+    </div>
+
+    <input type="text" class="form-control" name="guest" placeholder="Number of Guest" />
+
+    <input type="submit" class="btn btn-default" value="submit" />
+
   </div>
 </form>
