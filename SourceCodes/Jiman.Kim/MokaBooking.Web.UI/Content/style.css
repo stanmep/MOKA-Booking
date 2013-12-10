@@ -17,3 +17,28 @@
     margin-left: 35%;
     width: 35%;
 }
+
+.navbar-logo, .navbar-text{
+    float: left;
+}
+
+.navbar-logo{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.navbar-text{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.footer{
+    border-top: 1px solid #808080;
+}
+
+.footer p{
+    float: right;
+    margin-right: 5px;
+}
