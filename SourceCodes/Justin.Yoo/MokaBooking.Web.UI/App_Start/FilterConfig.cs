@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace MokaBooking.Web.UI
+namespace MokaBooking.Web.UI.App_Start
 {
     public class FilterConfig
     {
