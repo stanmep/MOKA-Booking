@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using MokaBooking.Web.UI.App_Start;
 
 namespace MokaBooking.Web.UI
 {
@@ -16,7 +17,6 @@ namespace MokaBooking.Web.UI
         {
             AreaRegistration.RegisterAllAreas();
 
-            
             GlobalConfiguration.Configure(WebApiConfig.Register);
             //WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
