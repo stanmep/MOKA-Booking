@@ -436,7 +436,9 @@
     <Content Include="Scripts\angularjs\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\angularjs\i18n\angular-locale_zu.js" />
+    <Content Include="Responses\bookings.json" />
     <None Include="Scripts\jquery\jquery-2.0.3.intellisense.js" />
+    <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\jquery\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery\jquery-2.0.3.min.js" />
     <Content Include="Scripts\main.js" />
@@ -453,10 +455,11 @@
     <Content Include="Scripts\jquery\jquery-2.0.3.min.map" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Book.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
