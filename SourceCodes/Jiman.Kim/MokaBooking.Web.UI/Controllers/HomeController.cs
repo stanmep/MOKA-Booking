@@ -16,5 +16,9 @@ namespace MokaBooking.Web.UI.Controllers
             return View();
         }
 
+        public ActionResult Book()
+        {
+            return View();
+        }
     }
 }

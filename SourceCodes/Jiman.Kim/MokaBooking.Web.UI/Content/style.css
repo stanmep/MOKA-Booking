@@ -9,13 +9,13 @@
 }
 
 .datepicker .form-control{
-    width: 28%;
+    width: 18%;
     display: inline-block; 
 }
 
 .datepicker{
     margin-left: 35%;
-    width: 35%;
+    width: 40%;
 }
 
 .navbar-logo, .navbar-text{
@@ -36,9 +36,18 @@
 
 .footer{
     border-top: 1px solid #808080;
+    height:50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer p{
     float: right;
     margin-right: 5px;
+}
+
+.bookingtable table{
+    width: 50%;
+    margin: 0 auto;
 }
