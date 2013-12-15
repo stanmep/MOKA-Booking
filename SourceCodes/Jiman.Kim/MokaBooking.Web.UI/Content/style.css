@@ -37,9 +37,7 @@
 .footer{
     border-top: 1px solid #808080;
     height:50px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    
 }
 
 .footer p{
@@ -50,4 +48,12 @@
 .bookingtable table{
     width: 50%;
     margin: 0 auto;
+}
+
+.booking-true{
+    background-color: #f2b4a0;
+}
+
+.booking-false{
+    background-color: #afe9a8;
 }
