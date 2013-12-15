@@ -1,49 +1,24 @@
 ﻿@{
-   
+    ViewBag.Title = "Index";
 }
+<div class="bookingtable">
+    <table class="table table-hover" ng-controller="bookingController">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Date</th>
+                <th>Guests</th>
+            </tr>
+        </thead>
 
-<form role="form" class="inputform" method="post" action="">
-  <div class="form-group">
-    <input type="text" class="form-control" name="givenname" placeholder="Given name" />
-  
-    <input type="text" class="form-control" name="surname" placeholder="Surname" />
-  
-    <input type="email" class="form-control" name="email" placeholder="Email" />
-  
-    <input type="password" class="form-control" name="password" placeholder="Password" />
- 
-    <div class="datepicker">
-        <select id="datedropdown" class="form-control">
-           @{
-               for (int i = 1; i <= 31; i++)
-               {
-                  <option value="@i">@i</option>
-               }
-           }
-
-        </select>
-        <select id="monthdropdown" class="form-control">
-           @{
-               string [] month = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
-               for (int i = 0; i < month.Length; i++)
-               { 
-                   <option value="@month[i]">@month[i]</option>
-               }
-           }
-        </select>
-         <select id="yeardropdown" class="form-control">
-           @{
-               for (int i = @DateTime.Now.Year; i >= 1930 ; i--)
-               { 
-                   <option value="@i">@i</option>
-               }
-           }
-        </select>
-    </div>
-
-    <input type="text" class="form-control" name="guest" placeholder="Number of Guest" />
-
-    <input type="submit" class="btn btn-default" value="submit" />
-
-  </div>
-</form>
+        <tbody ng-repeat="booking in bookings">
+            <tr>
+                <td>{{booking.givenName}} {{booking.surName}}</td>
+                <td>{{booking.email}}</td>
+                <td>{{booking.bookingDate}}</td>
+                <td>{{booking.numberOfGuests}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DDC55AB9-7688-45CA-B11E-91080039C730}</ProjectGuid>
+    <ProjectGuid>{5E693627-6E55-4AD5-8931-D5FAF5E65CE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MokaBooking.Web.UI.Tests</RootNamespace>
@@ -117,6 +117,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\Documents\Properties\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -127,7 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MokaBooking.Web.UI\MokaBooking.Web.UI.csproj">
-      <Project>{66C5F342-318D-49F9-91DB-1A0F1E3A1ABD}</Project>
+      <Project>{7124AB09-BB8E-442A-BD91-27806E7C9399}</Project>
       <Name>MokaBooking.Web.UI</Name>
     </ProjectReference>
   </ItemGroup>
