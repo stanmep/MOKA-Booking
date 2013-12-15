@@ -6,13 +6,13 @@ using System.Web.Mvc;
 
 namespace MokaBooking.Web.UI.Controllers
 {
-    public class BookingController : Controller
-    {
-        //
-        // GET: /Booking/
-        public ActionResult Index()
-        {
-            return View();
-        }
+	public class BookingController : Controller
+	{
+		//
+		// GET: /Booking/
+		public ActionResult Index()
+		{
+			return View();
+		}
 	}
 }

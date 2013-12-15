@@ -37,6 +37,7 @@
 .footer{
     border-top: 1px solid #808080;
     height:50px;
+    margin-top: 20px;
     
 }
 
@@ -45,7 +46,7 @@
     margin-right: 5px;
 }
 
-.bookingtable table{
+.bookingtable table, .availabilitytable table{
     width: 50%;
     margin: 0 auto;
 }
@@ -57,3 +58,4 @@
 .booking-false{
     background-color: #afe9a8;
 }
+
