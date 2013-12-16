@@ -154,7 +154,7 @@
 ];
 
 (function (angular) {
-    var module = angular.module("bookingApp", []);
+    var module = angular.module("availabilityApp", []);
 
     module.controller("availabilityController", function ($scope, $http) {
         $scope.bookingStates = bookingStates;
