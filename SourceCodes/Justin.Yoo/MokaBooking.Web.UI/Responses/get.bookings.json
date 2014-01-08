@@ -39,4 +39,11 @@
     "email": "sunju@mokabooking.com",
     "bookingDate": "2013-12-14, 20:00",
     "numberOfGuests": 6
+},
+{
+    "givenName": "Daniel",
+    "surname": "Choi",
+    "email": "daniel@mokabooking.com",
+    "bookingDate": "2014-01-10, 20:00",
+    "numberOfGuests": 10
 }]
