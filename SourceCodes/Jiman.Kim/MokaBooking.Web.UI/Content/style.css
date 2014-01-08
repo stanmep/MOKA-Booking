@@ -1,0 +1,73 @@
+﻿
+.form-group input {
+    margin: 5px auto;
+    width: 30%;
+}
+
+.btn.btn-default {
+    width: 10%;
+    margin-left: 45%;
+}
+
+.datepicker .form-control{
+    width: 18%;
+    display: inline-block; 
+}
+
+.datepicker{
+    margin-left: 35%;
+    width: 40%;
+}
+
+.navbar.navbar-default{
+    height: 80px;
+}
+
+.navbar-logo, .navbar-text{
+    float: left;
+}
+
+.navbar-logo{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.navbar-text{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.navbar-text a {
+    color: #808080;
+    text-decoration: none;
+}
+
+
+
+.footer{
+    border-top: 1px solid #808080;
+    height:50px;
+    margin-top: 20px;
+    
+}
+
+.footer p{
+    float: right;
+    margin-right: 5px;
+}
+
+.bookingtable table, .availabilitytable table{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.booking-true{
+    background-color: #f2b4a0;
+}
+
+.booking-false{
+    background-color: #afe9a8;
+}
+

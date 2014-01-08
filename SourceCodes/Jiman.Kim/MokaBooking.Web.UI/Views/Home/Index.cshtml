@@ -1,0 +1,24 @@
+﻿@{
+    //** Home/Index
+}
+<div class="bookingtable" ng-app="bookingApp">
+    <table class="table table-hover" ng-controller="bookingController">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Date</th>
+                <th>Guests</th>
+            </tr>
+        </thead>
+
+        <tbody ng-repeat="booking in bookings">
+            <tr>
+                <td>{{booking.givenName}} {{booking.surName}}</td>
+                <td>{{booking.email}}</td>
+                <td>{{booking.bookingDate}}</td>
+                <td>{{booking.numberOfGuests}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
